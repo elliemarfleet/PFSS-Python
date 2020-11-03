@@ -23,6 +23,8 @@ If attempting to run the model, both files must exist in the same directory, and
 
 [LICENSE](LICENSE): this file outlines that the project has been licensed under the MIT License.
 
+[Pycache](__pycache__): this folder is not needed for this project and contains earlier code and commits produced during initial practicals, code may not be fully functional and should not be used as an alternative to code outlined within [model.py](model.py) and [agentframework.py](agentframework.py).
+
 
 ## Running the model
 
