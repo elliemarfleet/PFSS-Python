@@ -17,6 +17,13 @@ The aim of the code is to produce an Agent-Based Model (ABM); simulating the beh
 
 If attempting to run the model, both files must exist in the same directory, and the [agentframework.py](agentframework.py) file must be imported at the top of the [model.py](model.py) file in order for the code to function correctly. Although this is included within the code, please bear this in mind if difficulties are encountered during any early stages. Generally, textual comments have been added which are signified when chunks of code are preceded by the hash key, these comments typically explain to readers what the following section of code is intended to do.
 
+**Other files**
+
+[in.txt](in.txt): this file outlines the data which is read into the environment.
+
+[LICENSE](LICENSE): this file outlines that the project has been licensed under the MIT License.
+
+
 ## Running the model
 
 ```
@@ -26,9 +33,7 @@ When attempting to run the model, a GUI window will appear with a drop-down opti
 
 Following this, you should see 20 agents plotted on a 300 x 300 environment. These agents will be randomly initialised; changing colour with each turn. The environment itself should change as the agents move around as they 'eat' (take from the environment) and are 'sick' (thus giving back to the environment). The whole process will run for 100 iterations and the results will be written to a separate file ('storefile') containing the sum of the agents' stores by the last iteration.
 
-## License
 
-This project has been licensed under the [MIT License](https://github.com/elliemarfleet/PFSS-Python/blob/main/LICENSE).
 
 
 
