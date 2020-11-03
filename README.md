@@ -9,8 +9,11 @@ The aim of the code is to produce an Agent-Based Model (ABM); simulating the beh
 ## Repository contents
 
 **The model**
-[](agentframework.py): this file formulates the agent class.
-[](model.py): this file runs the model.
+
+[agentframework.py](agentframework.py): this file formulates the agent class.
+
+[model.py](model.py): this file runs the model.
+
 
 If attempting to run the model, both files must exist in the same directory, and the [agentframework.py](agentframework.py) file must be imported at the top of the [model.py](model.py) file in order for the code to function correctly. Although this is included within the code, please bear this in mind if difficulties are encountered during any early stages. Generally, textual comments have been added which are signified when chunks of code are preceded by the hash key, these comments typically explain to readers what the following section of code is intended to do.
 
